@@ -1,0 +1,28 @@
+.Wrapper {
+  width: 403px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Board {
+  border: 2px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 440px) {
+  .Wrapper{
+    width: auto;
+  }
+  .Board{
+    width: 330px;
+  }
+}
+@media (max-width: 340px) {
+  .Board{
+    width: 240px;
+  }
+}

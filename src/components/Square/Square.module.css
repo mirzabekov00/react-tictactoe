@@ -1,0 +1,24 @@
+.Square {
+  width: 133px;
+  height: 134px;
+  display: flex;
+  font-size: 55px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+@media (max-width: 440px) {
+  .Square {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media (max-width: 340px) {
+  .Square {
+    width: 80px;
+    height: 80px;
+  }
+}
